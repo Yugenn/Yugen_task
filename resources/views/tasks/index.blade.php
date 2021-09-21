@@ -46,7 +46,7 @@
         </p>
         <p>
             <label for="body">内容</label><br>
-            <textarea name="body" id="" value="{{ old('body') }}"></textarea>
+            <textarea name="body" id="">{{ old('body') }}</textarea>
         </p>
         <input type="submit" value="Create Task">
     </form>

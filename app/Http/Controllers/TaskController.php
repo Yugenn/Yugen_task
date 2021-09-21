@@ -28,7 +28,7 @@ class TaskController extends Controller
 
     public function update(TaskRequest $request, $id)
     {
-        // ここはidで探して持ってくる以外はstoreと同じ
+        // ここはidで探して持ってくる以外はtaskと同じ
         $task = Task::find($id);
         // articleの用意
         $task->title = $request->title;
